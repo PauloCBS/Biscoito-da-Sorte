@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;700&display=swap');
+.hide{
+    display: none;
+}
+
+body{
+    background-color: black;
+    
+}
+
+/*Biscoito fechado*/
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.biscoito__fechado__card{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    padding: 64px;
+    background-color: aliceblue;
+    
+}
