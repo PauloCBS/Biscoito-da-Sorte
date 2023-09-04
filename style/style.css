@@ -4,13 +4,10 @@
 }
 
 body{
-    background-color: black;
-    
+    background: linear-gradient(45deg, #190361 0%, #B0F 100%);
 }
 
 /*Biscoito fechado*/
-
-
 section {
     display: flex;
     align-items: center;
@@ -24,8 +21,92 @@ section {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-    padding: 64px;
-    background-color: aliceblue;
-    
+    padding: 5rem 0px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);; 
 }
+
+h1{  
+    color: #34355B;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 2rem;
+}
+
+.biscoito__fechado__paragrafo {
+    color: #34355B;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1rem;
+}
+
+@keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(10px);
+    }
+  }
+  
+  .biscoito__fechado__imagem:hover {
+    animation: shake 2s ease-in-out;
+  }
+
+  .biscoito__aberto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 0px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+    width:50%;
+  }
+
+  .biscoito__aberto__paragrafo{
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+    color: #000;
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 1rem 0px;
+    width: 50%;
+    margin: 2rem 0px;
+  }
+
+
+
+  .biscoito__aberto__jogarNovamente{ 
+    padding: 1rem;
+    border-radius: 4px;
+    background: #FF9500;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 3rem 0rem 3rem 0rem;
+    border-radius: 4px;
+}
+

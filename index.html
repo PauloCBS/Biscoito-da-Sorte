@@ -8,21 +8,23 @@
     <title>Document</title>
 </head>
 <body>
-<section >
-    <div class="biscoito__fechado__card">
+<section class="fechado">
+    <div class="biscoito__fechado__card ">
         <h1 class="biscoito__fechado__titulo">Qual é a sua sorte de hoje?</h1>
         <p class="biscoito__fechado__paragrafo">Abra o biscoito e descubra!</p>
-        <img class="biscoito__fechado__imagem" src="./style/Assets/Ebene 4.svg" alt="" srcset="">
+        <img  id="fechadinho" class="biscoito__fechado__imagem" src="./style/Assets/Ebene 4.svg" alt="" srcset="">
     </div>
 </section>
-<section class="biscoito__aberto hide">
-    <h1 class="biscoito__aberto__titulo">Aqui está a sua sorte de hoje:</h1>
-    <p class="biscoito__aberto__paragrafo">Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</p>
-    <img class="biscoito__aberto__imagem" src="" alt="" srcset="">
-    <button class="biscoito__aberto__jogarNovamente">Abrir outro biscoito</button>
+<section class="aberto hide">
+    <div class="biscoito__aberto">
+        <h1 class="biscoito__aberto__titulo">Aqui está a sua sorte de hoje:</h1>
+        <p class="biscoito__aberto__paragrafo">Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.</p>
+        <img class="biscoito__aberto__imagem" src="./style/Assets/opened-cookie.png" alt="" srcset="">
+        <button class="biscoito__aberto__jogarNovamente">Abrir outro biscoito</button>
+    </div>   
 </section>
 
 
-<script src="./javascript/script.js"></script>
+<script src="./javascript/script.js" type="module"></script>
 </body>
 </html>
